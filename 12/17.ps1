@@ -1,0 +1,1 @@
+Rename-Item HKCU:\TEST -NewName RenamedSubKey

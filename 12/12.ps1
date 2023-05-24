@@ -1,0 +1,1 @@
+Get-Item 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion'

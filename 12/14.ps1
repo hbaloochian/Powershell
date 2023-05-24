@@ -1,0 +1,1 @@
+Get-Item 'HKCU:\SOFTWARE\Microsoft\Internet Explorer\TypedURLs'

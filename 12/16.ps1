@@ -1,0 +1,1 @@
+New-ItemProperty -Path 'HKCU:\TEST' -Name Reg2 -PropertyType String -Value 2
