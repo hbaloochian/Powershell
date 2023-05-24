@@ -1,0 +1,1 @@
+Get-ChildItem c:\data | Select-String -Pattern "Error"

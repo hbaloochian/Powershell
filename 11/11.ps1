@@ -1,0 +1,1 @@
+$names | Sort-Object { $_.length }
