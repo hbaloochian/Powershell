@@ -1,0 +1,1 @@
+$c= @("server1","server2")
