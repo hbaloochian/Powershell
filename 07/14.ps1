@@ -1,0 +1,1 @@
+Get-ADUserMemberOf -User "User" -Group "Group"

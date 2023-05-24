@@ -1,0 +1,1 @@
+$cred = get-auth -userId Ali@test.ir –passwordfile d:\password1.txt
