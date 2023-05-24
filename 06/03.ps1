@@ -1,0 +1,1 @@
+$Password = Read-Host -assecurestring "Enter your password"
