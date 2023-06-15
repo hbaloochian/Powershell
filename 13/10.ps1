@@ -1,0 +1,1 @@
+Search-SystemLog -Path C:\Windows\System32\LogFiles\System\SystemLog.txt -SearchPatterns "Error","Warning"

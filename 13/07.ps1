@@ -1,0 +1,1 @@
+Get-SmbShareAccess -Name "sharedir" | Out-String | Set-Content -Path D:\TestResults\ScanResults.txt

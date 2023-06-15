@@ -1,0 +1,1 @@
+Get-Content -Path C:\Windows\System32\LogFiles\System\SystemLog.txt | Select-String -Pattern "Error", "Warning" 
