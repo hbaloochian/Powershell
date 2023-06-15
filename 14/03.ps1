@@ -1,0 +1,1 @@
+Get-Process | Where-Object {$_.Path -ne $null} | Select-Object ProcessName, Path, Company, Description

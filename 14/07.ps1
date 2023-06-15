@@ -1,0 +1,1 @@
+Get-NetFirewallRule | Where-Object {$_.Enabled -eq 'True' -and $_.Direction -eq 'Inbound' -and $_.Action -eq 'Allow' -and $_.Profile -eq 'Public'} | Select-Object DisplayName, Profile, Protocol, LocalPort, RemoteAddress | Export-CSV -Path D:\SensitiveData\FirewallRules.csv -NoTypeInformation

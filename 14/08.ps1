@@ -1,0 +1,1 @@
+$OnlineComputers = Get-ADComputer -Filter {Enabled -eq "True"} | Where-Object {$_.LastLogonTimeStamp -gt (Get-Date).AddDays(-30)}

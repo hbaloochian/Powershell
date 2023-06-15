@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "http://website.com" -UseBasicParsing | Select-Object StatusCode, StatusDescription
